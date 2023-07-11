@@ -15,7 +15,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appodeal/appodeal-cordova-plugin.git"
+    "url": "git+https://github.com/oguto/appodealCordova.git"
   },
   "keywords": [
     "appodeal",
