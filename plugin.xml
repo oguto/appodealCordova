@@ -142,9 +142,7 @@
 			<activity android:name="com.unity3d.ads2.adunit.AdUnitSoftwareActivity"
 				android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:hardwareAccelerated="false" />
-
-		
-
+	
 			<!--suppress AndroidDomInspection -->
 			<activity android:name="com.vungle.publisher.VideoFullScreenAdActivity"
 				android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
@@ -199,7 +197,6 @@
 			<activity android:name="com.ironsource.sdk.controller.OpenUrlActivity" android:configChanges="orientation|screenSize"
 				android:hardwareAccelerated="true" android:theme="@android:style/Theme.Translucent" />
 
-			<!--suppress AndroidDomInspection -->
 		
 
 			<activity android:name="com.inmobi.rendering.InMobiAdActivity" android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize|screenLayout"
@@ -256,7 +253,5 @@
         <source-file src="libs/Android/unity_ads-2.1.0.jar" target-dir="libs" />
         <source-file src="libs/Android/yandex-metrica-2.73.jar" target-dir="libs" />
     	<source-file src="libs/Android/startapp-3.6.7.jar" target-dir="libs" />
-
-    </platform>
-
+        </platform>
    </plugin>
